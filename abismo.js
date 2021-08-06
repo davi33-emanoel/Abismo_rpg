@@ -8,12 +8,12 @@ if (entrar == 'sim')
     alert('empurrando a porta');
 
     var continuar= prompt('você ve uma sala escura, você fica com muito medo, continuar?');
-    if (continuar === 'sim')
+    if (continuar == 'sim')
     {
         alert('Você esta em uma sala escura');
 
         var caminhar= prompt('Você sente um calafrio..... e pensa se continua ou não a caminhar, continuar caminhando??')
-        if(caminhar === 'sim')
+        if(caminhar == 'sim')
         {       
             alert('você continua caminhando no escuro com o auxilio das parades para guiar o caminho...'); 
             alert('Você chegou ao final da sala e se deparou com um jardim lindo e magnifico')
