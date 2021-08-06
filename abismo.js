@@ -3,17 +3,17 @@
 alert('Você esta em uma ponte e no final dela voce se depara com uma porta imensa em um local sombrio e triste.');
 
 var entrar = prompt ('Você ve que ela esta pesada mas pode ser empurrada, você quer empurrar a porta??');
-if (entrar == 'sim')
+if (entrar == 'sim ' ,'y')
 {
     alert('empurrando a porta');
 
     var continuar= prompt('você ve uma sala escura, você fica com muito medo, continuar?');
-    if (continuar == 'sim')
+    if (continuar == 'sim','y')
     {
         alert('Você esta em uma sala escura');
 
         var caminhar= prompt('Você sente um calafrio..... e pensa se continua ou não a caminhar, continuar caminhando??')
-        if(caminhar == 'sim')
+        if(caminhar == 'sim','y')
         {       
             alert('você continua caminhando no escuro com o auxilio das parades para guiar o caminho...'); 
             alert('Você chegou ao final da sala e se deparou com um jardim lindo e magnifico')
