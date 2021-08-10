@@ -13,7 +13,7 @@ function escolha_bite2(){
         location.replace('../../historia-personagens/bite/fase3.html')
     }
     else{
-            location.replace('../../index.html')
+            location.replace('../../historia-personagens/bite/game_over.html')
     }
 }
 function escolha_bite3(){
