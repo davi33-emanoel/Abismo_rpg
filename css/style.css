@@ -4,6 +4,7 @@
    box-sizing:border-box;
    text-decoration: none;
 }
+/* Primeira pagina, e suas modificações */
 body , html{
    width:100%;
    height:100%;
@@ -59,11 +60,13 @@ button{
    border: none;
    outline: none;
    cursor: pointer;
+   display: inline-block;
 }
+
 .botao:hover{
    border:1px dashed red;
 }
-#botao{
+.imagem{
    width:200px;
    height:60px;
 }
@@ -81,4 +84,31 @@ button{
    background-position: center;
    height: 200px;
    width: 200px;
+}
+
+/* Fase bite */
+
+.fundo{
+   background:black;
+   width:100%;
+   height:100%;
+}
+.bite-botao{
+   text-align:center;
+   margin-top:10px;
+}
+.fase-1-bite{
+   text-align: center;
+
+}
+.dialogo{
+   color: white;
+  word-wrap:1.5px;
+  font-family: 'Raleway Dots', cursive;
+  overflow-y: auto;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  padding: 15px;
+  margin-top: 15px;
+  font-size:18px;
 }
