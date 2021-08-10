@@ -4,7 +4,7 @@
    box-sizing:border-box;
    text-decoration: none;
 }
-/* Primeira pagina, e suas modificações */
+/* Pagina inicial e modificações */
 body , html{
    width:100%;
    height:100%;
@@ -62,7 +62,9 @@ button{
    cursor: pointer;
    display: inline-block;
 }
-
+.botao{
+   display: inline-block;
+}
 .botao:hover{
    border:1px dashed red;
 }
