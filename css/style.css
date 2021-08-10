@@ -2,6 +2,7 @@
    padding:0;
    margin:0;
    box-sizing:border-box;
+   text-decoration: none;
 }
 body , html{
    width:100%;
@@ -12,7 +13,6 @@ body{
 }
 pre{
    color:white;
-   font-family:'Courier New', Courier, monospace;
    font-size:12px;
    text-align:center;
 
@@ -53,6 +53,19 @@ pre{
   font-family: 'Raleway Dots', cursive;
   padding:5px;
   overflow-y: auto;
+}
+button{
+   background:none;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.botao:hover{
+   border:1px dashed red;
+}
+#botao{
+   width:200px;
+   height:60px;
 }
 .personagens{
    width:100%;
