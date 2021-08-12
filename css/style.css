@@ -114,3 +114,25 @@ button{
   margin-top: 15px;
   font-size:18px;
 }
+.creditos{
+display: flex; 
+height: 100%;
+width: 100%;
+color: white;
+text-align:center;
+align-items:center;
+font-family: 'Raleway Dots', cursive;
+padding:5px;
+font-size:20px;
+}
+.creditos-texto{
+   border-top: 1px dashed white;
+   border-bottom: 1px dashed white; 
+   padding:5px;
+}
+.audio{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
