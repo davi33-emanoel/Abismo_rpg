@@ -1,7 +1,7 @@
 // fases do BITE
 
 function escolha_bite1 (){
-    var escolha=prompt("ficar ou não?","Responda com sim ou nao em minusculo")
+    var escolha=prompt("ficar ou não?","Responda com sim ou não (em minúsculo)")
     if (escolha === 'sim'){
         location.replace('../../historia-personagens/bite/fase2.html')
     }
@@ -10,7 +10,7 @@ function escolha_bite1 (){
     }
 }
 function escolha_bite2(){
-    var escolha=prompt("enfrentar seu medo, ou desistir e buscar ajuda?","Responda com enfrentar ou desistir em minusculo")
+    var escolha=prompt("enfrentar seu medo ou desistir e buscar ajuda?","Responda com enfrentar ou desistir (em minúsculo)")
     if (escolha === 'enfrentar'){
         location.replace('../../historia-personagens/bite/fase3.html')
     }
@@ -19,7 +19,7 @@ function escolha_bite2(){
     }
 }
 function escolha_bite3(){
-    var escolha=prompt("volte para o menu, e ajude os outros personagens a superarem seus medos","Responda menu em minusculo")
+    var escolha=prompt("Volte ao menu e ajude os outros personagens a superar seus medos","Responda menu (em minúsculo)")
     if (escolha === 'menu'){
         location.replace('../../index.html')
     }
@@ -28,7 +28,7 @@ function escolha_bite3(){
     }
 }
 function escolha_bite(){
-    var escolha=prompt("Game over, Bite não superou seu medo, para tentar novamente use jogar novamente ou vá para o menu para jogar com os outros personagens","Responda jogar ou menu em minusculo")
+    var escolha=prompt("Game over, Bite não superou seu medo, para tentar novamente digite jogar novamente ou vá para o menu para jogar com os outros personagens","Responda jogar ou menu (em minúsculo)")
     if (escolha === 'jogar'){
         location.replace('../../historia-personagens/bite/fase1.html')
     }
@@ -41,7 +41,7 @@ function escolha_bite(){
 // Começo fases JOSEFINA
 
 function escolha_josefina1(){
-    var escolha=prompt("Continuar nessa estrada ou voltar?","Responda com continuar ou voltar em minusculo")
+    var escolha=prompt("Continuar nessa estrada ou voltar?","Responda com continuar ou voltar (em minúsculo)")
     if (escolha === 'continuar'){
         location.replace('../../historia-personagens/josefina/fase2.html')
     }
@@ -50,7 +50,7 @@ function escolha_josefina1(){
     }
 }
 function escolha_josefina2(){
-    var escolha=prompt("Continuar caminhando ou voltar mesmo com o perigo dos ladinos?","Responda com continuar ou voltar em minusculo")
+    var escolha=prompt("Continuar caminhando ou voltar mesmo com o perigo dos ladinos?","Responda com continuar ou voltar (em minúsculo)")
     if (escolha === 'continuar'){
         location.replace('../../historia-personagens/josefina/fase3.html')
     }
@@ -59,7 +59,7 @@ function escolha_josefina2(){
     }
 }
 function escolha_josefina3(){
-    var escolha=prompt("Josefina esta quase no fim, mas a pressão na sua mente é enorme, ir até o fim ou não?","Responda continuar ou voltar em minusculo")
+    var escolha=prompt("Josefina está quase no fim, mas a pressão na sua mente é enorme. Ir até o fim ou não?","Responda continuar ou voltar (em minúsculo)")
     if (escolha === 'continuar'){
         location.replace('../../historia-personagens/josefina/fase4.html')
     }
@@ -68,7 +68,7 @@ function escolha_josefina3(){
     }
 }
 function escolha_josefina4(){
-    var escolha=prompt("Você ajudou Josefina a enfrentar seu maior medo, agora ela sente que sua insegurança esta dfiminuindo a cada dia que passa, se quiser ajudar os outros personagens a enfrentarem seus medos digite menu?","Responda menu em minusculo")
+    var escolha=prompt("Você ajudou Josefina a enfrentar seu maior medo, agora ela sente que sua insegurança está diminuindo a cada dia que passa. Se quiser ajudar os outros personagens a enfrentarem seus medos digite, menu.","Responda menu (em minúsculo)")
     if (escolha === 'menu'){
         location.replace('../../index.html')
     }
@@ -77,7 +77,7 @@ function escolha_josefina4(){
     }
 }
 function escolha_josefina_game_over(){
-    var escolha=prompt("Josefina não aguentou a pressâo de enfrentar seu medo, se quiser tentar novamente digite novamente, se quiser ir para o menu digite menu?","Responda novamente menu em minusculo")
+    var escolha=prompt("Josefina não aguentou a pressâo de enfrentar seu medo, se quiser tentar novamente, digite novamente, se quiser ir para o menu digite menu.","Responda novamente ou menu (em minúsculo)")
     if (escolha === 'novamente'){
         location.replace('../../historia-personagens/josefina/fase1.html')
     }
@@ -90,7 +90,7 @@ function escolha_josefina_game_over(){
 // Começo fases ORC MORSE
 
 function escolha_orc1(){
-    var escolha=prompt("enfrentar o medo que repentinamente apareçe ou voltar para a vila?","Responda com enfrentar ou voltar em minusculo")
+    var escolha=prompt("enfrentar o medo ou voltar para a vila?","Responda com enfrentar ou voltar (em minúsculo)")
     if (escolha === 'enfrentar'){
         location.replace('../../historia-personagens/orc/fase2.html')
     }
@@ -99,7 +99,7 @@ function escolha_orc1(){
     }
 }
 function escolha_orc2(){
-    var escolha=prompt("Ele engole seco, e pensa empurro ou vou embora?","Responda com empurrar ou voltar em minusculo")
+    var escolha=prompt("Ele engole seco e pensa se empurra ou vou embora.","Responda com empurrar ou voltar (em minúsculo)")
     if (escolha === 'empurrar'){
         location.replace('../../historia-personagens/orc/fase3.html')
     }
@@ -108,7 +108,7 @@ function escolha_orc2(){
     }
 }
 function escolha_orc3(){
-    var escolha=prompt("Ele entrar ou deixar o medo tomar conta por completo?","Responda com entrar ou voltar em minusculo")
+    var escolha=prompt("Ele entra ou deixa o medo tomar conta por completo?","Responda com entrar ou voltar (em minúsculo)")
     if (escolha === 'entrar'){
         location.replace('../../historia-personagens/orc/fase4.html')
     }
@@ -117,7 +117,7 @@ function escolha_orc3(){
     }
 }
 function escolha_orc4(){
-    var escolha=prompt("Morse deve continuar para chegar ao final e encontrar o ponto de luz, ou voltar e desistir?","Responda com entrar ou voltar em minusculo")
+    var escolha=prompt("Morse deve continuar para chegar ao final e encontrar o ponto de luz ou voltar e desistir?","Responda com entrar ou voltar (em minúsculo)")
     if (escolha === 'continuar'){
         location.replace('../../historia-personagens/orc/fase5.html')
     }
@@ -126,7 +126,7 @@ function escolha_orc4(){
     }
 }
 function escolha_orc5(){
-    var escolha=prompt("Morse agora pode enfrentar seus outros medos que surgirem em sua vida, se quiser voltar ao menu e ajudar aos outros personagens enfrentarem seus medos digite menu","Responda menu em minusculo")
+    var escolha=prompt("Morse agora pode enfrentar os medos que surgirem em sua vida. Se quiser voltar ao menu e ajudar aos outros personagens digite menu.","Responda menu (em minúsculo)")
     if (escolha === 'menu'){
         location.replace('../../index.html')
     }
@@ -135,7 +135,7 @@ function escolha_orc5(){
     }
 }
 function escolha_orc6(){
-    var escolha=prompt("Morse não superou seu medo voltou para sua vila, se quiser tentar novamente digite novamente ou se quiser ir para o menu digite menu","Responda novamente ou menu em minusculo")
+    var escolha=prompt("Morse não superou seu medo e voltou para sua vila. Se quiser tentar novamente digite novamente ou se quiser ir para o menu digite menu","Responda novamente ou menu (em minúsculo)")
     if (escolha === 'novamente'){
         location.replace('../../historia-personagens/orc/fase1.html')
     }
