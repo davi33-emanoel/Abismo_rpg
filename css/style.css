@@ -115,9 +115,7 @@ button{
   font-size:18px;
 }
 .creditos{
-display: flex; 
-height: 100%;
-width: 100%;
+display: inline-block; 
 color: white;
 text-align:center;
 align-items:center;
@@ -133,6 +131,15 @@ font-size:20px;
 .audio{
    display: flex;
    align-items: center;
+   justify-content: center;   
+}
+.hello{
+   display: flex;
+   align-items: center;
    justify-content: center;
-   
+   padding:5px;
+}
+.word{
+   border: 1px dashed red;
+   padding: 5px;
 }
