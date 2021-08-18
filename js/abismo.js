@@ -1,3 +1,71 @@
+// fases do BITE
+
+function escolha_bite1(){
+    let escolha;
+    while (true){
+    escolha=prompt("ficar ou não?","Responda com sim ou nao (em minúsculo)")
+    if (escolha === 'sim'){
+        location.replace('../../historia-personagens/bite/fase2.html')
+        break;
+    }
+    else if(escolha=== 'nao'){
+            location.replace('../../historia-personagens/bite/game_over.html')
+            break;
+    }
+    alert("Responda com sim ou nao (em minúsculo)")
+}
+}
+
+function escolha_bite2(){
+    let escolha;
+    while (true){
+    escolha=prompt("enfrentar seu medo ou desistir e buscar ajuda?")
+    if (escolha === 'enfrentar'){
+        location.replace('../../historia-personagens/bite/fase3.html')
+        break;
+    }
+
+    else if(escolha === 'desistir'){
+            location.replace('../../historia-personagens/bite/game_over.html')
+            break;
+    }
+    alert("Responda com enfrentar ou desistir (em minúsculo)")
+}
+}
+
+function escolha_bite3(){
+    let escolha;
+    while (true){
+    escolha=prompt("Volte ao menu e ajude os outros personagens a superar seus medos")
+    if (escolha === 'menu'){
+        location.replace('../../index.html')
+        break;
+    }
+    else if(escolha === 'ajude'){
+            location.replace('../../index.html')
+            break;
+    }
+    alert("Responda menu (em minúsculo)")
+}
+}
+
+function escolha_bite(){
+    let escolha;
+    while (true){
+    escolha=prompt("Game over, Bite não superou seu medo, para tentar novamente digite jogar novamente ou vá para o menu para jogar com os outros personagens")
+    if (escolha === 'jogar'){
+        location.replace('../../historia-personagens/bite/fase1.html')
+        break;
+    }
+    else if(escolha==='menu'){
+            location.replace('../../index.html')
+            break;
+    }
+    alert('"Responda jogar ou menu (em minúsculo)"')
+}
+}
+
+// FIM das fases do BITE
 
 // Começo fases JOSEFINA
 
