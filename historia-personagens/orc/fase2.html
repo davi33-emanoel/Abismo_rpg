@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <title>Fase-2-ORC</title>
-    <script src="../../js/abismo.js" defer></script>
+    <script src="../../js/abismo2.js" defer></script>
   </head>
   <body>
     <div class="fundo">
@@ -26,10 +26,14 @@
           aparência velha e pesada,e isso o desanima a empurrá-la, ele já está suando
           frio, diante do desconhecido. Ele precisa decidir se a empurra ou
           não.
+          <ol>
+            <li>Empurrar</li>
+            <li>Voltar</li>
+          </ol>
         </p>
       </div>
       <div class="bite-botao">
-        <button type="button" class="botao" onclick="escolha_orc2();">
+        <button type="button" class="botao" onclick="chamar_prompt('escolha 1 ou 2', './fase3.html', morte_orc)";>
           <img src="../../Botoes/selecionar.png" class="imagem" alt="" />
         </button>
       </div>
