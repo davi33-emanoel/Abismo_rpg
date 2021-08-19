@@ -114,6 +114,12 @@ button{
   margin-top: 15px;
   font-size:18px;
 }
+ol{
+   display:flex;
+   flex-flow: column wrap;
+   justify-content:space-around;
+   align-items:center;
+}
 .creditos{
 display: inline-block; 
 color: white;
